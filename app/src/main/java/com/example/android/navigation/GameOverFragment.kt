@@ -37,6 +37,8 @@ class GameOverFragment : Fragment() {
             view.findNavController().navigate(R.id.action_gameOverFragment_to_gameFragment)
         }
 
+        //setHasOptionsMenu(true)
+
         var args = GameOverFragmentArgs.fromBundle(requireArguments())
 
         Toast.makeText(context,
